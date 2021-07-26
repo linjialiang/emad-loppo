@@ -7,7 +7,7 @@ Loppo has some command line options.
 `--dir` or `-d` sets the document directory which keeps the original Markdown files. `docs` is the default directory.
 
 ```bash
-$ loppo --dir my_docs
+$ emad-loppo --dir my_docs
 ```
 
 ## --output, -o
@@ -15,7 +15,7 @@ $ loppo --dir my_docs
 `--output` or `-o` sets the output directory which keeps the generated documents. `dist` is the default directory.
 
 ```bash
-$ loppo --output my_site
+$ emad-loppo --output my_site
 ```
 
 ##  --site, -s
@@ -23,15 +23,15 @@ $ loppo --output my_site
 `--site` or `-s` sets the site's name. `Documents` is the default.
 
 ```bash
-$ loppo --site "My Documents"
+$ emad-loppo --site "My Documents"
 ```
 
 ## --theme, -t
 
-`--theme` or `-t` sets a site's theme. `loppo-theme-oceandeep` is the default.
+`--theme` or `-t` sets a site's theme. `emad-loppo-theme-oceandeep` is the default.
 
 ```bash
-$ loppo --theme oceandeep
+$ emad-loppo --theme oceandeep
 ```
 
 ##  --id
@@ -56,9 +56,9 @@ The option needs the support of the site theme.
 
 `--help` gives Loppo's commandline usage.
 
-  
-  
- 
+
+
+
 
 示例：
-  loppo --dir docs --output dist
+  emad-loppo --dir docs --output dist

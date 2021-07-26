@@ -2,28 +2,28 @@
 
 Loppo supports two git-style subcommands.
 
-- loppo server
-- loppo count
-- loppo chapter
+- emad-loppo server
+- emad-loppo count
+- emad-loppo chapter
 
-## loppo server
+## emad-loppo server
 
-`loppo server` builds the document site at first, and thereafter launch a web server on 8080 port for `dist` sub-directory.
+`emad-loppo server` builds the document site at first, and thereafter launch a web server on 8080 port for `dist` sub-directory.
 
 ```bash
-$ loppo server
+$ emad-loppo server
 ```
 
 After running the comand, you could visit http://127.0.0.1:8080 in your browser.
 
 This command is helpful for preview when you develop your documents.
 
-## loppo count
+## emad-loppo count
 
-`loppo count` will output statistic information of your documents.
+`emad-loppo count` will output statistic information of your documents.
 
 ```bash
-$ loppo count
+$ emad-loppo count
 
 [Files] 56
 [Lines] 8885
@@ -33,25 +33,25 @@ $ loppo count
 
 Attention, before using this command, `chapters.yml` must already be existed. Otherwise you will get an error.
 
-`loppo count` has two options.
+`emad-loppo count` has two options.
 
 ```bash
 # output every markdown file's statistic information
-$ loppo count --detail
+$ emad-loppo count --detail
 
 # output a specified markdown file's statistic information
 # the file path should be same as the corresponding item in chapters.yml
-$ loppo count -f some.md
+$ emad-loppo count -f some.md
 ```
 
-## loppo chapter
+## emad-loppo chapter
 
-`loppo chapter` will re-create `chapters.yml` and add new Markdown files into it.
+`emad-loppo chapter` will re-create `chapters.yml` and add new Markdown files into it.
 
 Attention, the old `chapters.yml` will be deleted after running the command.
 
 ```bash
-$ loppo chapter
+$ emad-loppo chapter
 
 This command will delete your chapters.yml if existed.
 Are you sure to continue? （Y/N）
@@ -60,5 +60,5 @@ Are you sure to continue? （Y/N）
 If you want to skip the confirmation, use `--force` option.
 
 ```bash
-$ loppo chapter --force
+$ emad-loppo chapter --force
 ```
