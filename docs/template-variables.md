@@ -14,7 +14,7 @@ The site variables are the same within the whole site.
 - chapters
 - chaptersOrigin
 - chapterList
-- emad-loppo_version
+- emad_loppo_version
 
 ### option.site
 
@@ -67,9 +67,9 @@ Fields
 
 `option.chapterList` is a HTML string converted from `option.chapters`.
 
-### option.emad-loppo_version
+### option.emad_loppo_version
 
-`option.emad-loppo_version` is the version number of Loppo.
+`option.emad_loppo_version` is the version number of Loppo.
 
 ## Page variables
 
