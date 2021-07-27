@@ -1,6 +1,6 @@
 {
   "name": "emad-loppo",
-  "version": "0.6.23",
+  "version": "1.0.1",
   "description": "an extremely easy static site generator of markdown documents",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 1"
   },
   "bin": {
-    "emad-loppo": "./bin/cmd.js"
+    "emad-loppo": "bin/cmd.js"
   },
   "keywords": [
     "static",
@@ -19,7 +19,7 @@
   "homepage": "https://github.com/linjialiang/emad-loppo",
   "repository": {
     "type": "git",
-    "url": "https://github.com/linjialiang/emad-loppo.git"
+    "url": "git+https://github.com/linjialiang/emad-loppo.git"
   },
   "author": "Lin Jialiang",
   "license": "GPL-3.0",
@@ -83,5 +83,13 @@
     "commitizen": {
       "path": "node_modules/cz-conventional-changelog"
     }
+  },
+  "bugs": {
+    "url": "https://github.com/linjialiang/emad-loppo/issues"
+  },
+  "directories": {
+    "doc": "docs",
+    "lib": "lib",
+    "test": "test"
   }
 }
