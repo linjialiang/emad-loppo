@@ -1,6 +1,6 @@
 # Command line options
 
-Loppo has some command line options.
+emadLoppo has some command line options.
 
 ## --dir, -d
 
@@ -46,15 +46,15 @@ The option needs the support of the site theme.
 
 ## --debug
 
-`--debug` opens Loppo's debug mode.
+`--debug` opens emadLoppo's debug mode.
 
 ##  --version, -v
 
-`--version` or `-v` shows Loppo's version information.
+`--version` or `-v` shows emadLoppo's version information.
 
 ## --help
 
-`--help` gives Loppo's commandline usage.
+`--help` gives emadLoppo's commandline usage.
 
 
 

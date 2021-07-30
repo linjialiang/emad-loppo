@@ -1,6 +1,6 @@
 # Sub-commands
 
-Loppo supports two git-style subcommands.
+emadLoppo supports two git-style subcommands.
 
 - emad-loppo server
 - emad-loppo count

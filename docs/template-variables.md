@@ -1,6 +1,6 @@
 # Template variables
 
-Loppo provides some template variables used in templates.
+emadLoppo provides some template variables used in templates.
 
 They could be divided into two categories: site variables and page variables.
 
@@ -69,7 +69,7 @@ Fields
 
 ### option.emad_loppo_version
 
-`option.emad_loppo_version` is the version number of Loppo.
+`option.emad_loppo_version` is the version number of emadLoppo.
 
 ## Page variables
 

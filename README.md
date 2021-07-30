@@ -1,4 +1,4 @@
-Loppo is an extremely easy static site generator of markdown documents. You get your site with only one command. Please visit [demo](http://redux.ruanyifeng.com/).
+emadLoppo is an extremely easy static site generator of markdown documents. You get your site with only one command. Please visit [demo](http://redux.ruanyifeng.com/).
 
 ## Features
 
@@ -9,7 +9,7 @@ Loppo is an extremely easy static site generator of markdown documents. You get 
 
 ## How to use
 
-**Attention: Loppo is still in its very early stages. Use it in production at your own risk.**
+**Attention: emadLoppo is still in its very early stages. Use it in production at your own risk.**
 
 First of all, arrange your documents into the following structure.
 
@@ -22,7 +22,7 @@ First of all, arrange your documents into the following structure.
       |- ...
 ```
 
-Now, install Loppo.
+Now, install emadLoppo.
 
 ```bash
 $ npm install emad-loppo -g
@@ -40,7 +40,7 @@ Run the command.
 $ emad-loppo
 ```
 
-Now, Loppo will build the document site under `dist` sub-directory. After the building process, you could open the site in your browser.
+Now, emadLoppo will build the document site under `dist` sub-directory. After the building process, you could open the site in your browser.
 
 ```bash
 $ open dist/index.html
