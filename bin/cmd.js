@@ -3,7 +3,7 @@
 const path = require('path');
 
 const { argv } = require('yargs')
-  .usage('Usage: emadLoppo [Options], emadLoppo [Commands] [Options]')
+  .usage('Usage: loppo [Options], loppo [Commands] [Options]')
   .option('dir', {
     alias: 'd',
     default: 'docs',
@@ -56,8 +56,8 @@ const { argv } = require('yargs')
   .command(require('./count'))
   .command(require('./chapter'))
   .help('help')
-  .example('emadLoppo --dir docs --output dist')
-  .example('emadLoppo server');
+  .example('loppo --dir docs --output dist')
+  .example('loppo server');
 
 if (argv.version) {
   const pkg = require(path.join(__dirname, '../package.json'));
@@ -76,3 +76,4 @@ if (
 ) {
   require('../lib')(argv);
 }
+

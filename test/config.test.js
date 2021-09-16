@@ -22,9 +22,9 @@ test(
     t.equal(result.dir, 'docs');
     t.equal(result.output, 'dist');
     t.equal(result.customization, false);
-    t.ok(fs.existsSync(path.join(TEST_PATH, 'emad-loppo.yml')));
+    t.ok(fs.existsSync(path.join(TEST_PATH, 'loppo.yml')));
     t.end();
-    fs.unlinkSync(path.join(TEST_PATH, 'emad-loppo.yml'));
+    fs.unlinkSync(path.join(TEST_PATH, 'loppo.yml'));
   }
 );
 
@@ -54,14 +54,14 @@ test(
     const result = config({ dir: 'aaa', output: 'bbb', theme: 'new' });
     t.equal(result.dir, 'aaa');
     t.equal(result.output, 'bbb');
-    t.ok(fs.existsSync(path.join(TEST_PATH, 'emad-loppo.yml')));
-    const doc = yaml.load(fs.readFileSync(path.join(TEST_PATH, 'emad-loppo.yml'), 'utf8'));
+    t.ok(fs.existsSync(path.join(TEST_PATH, 'loppo.yml')));
+    const doc = yaml.load(fs.readFileSync(path.join(TEST_PATH, 'loppo.yml'), 'utf8'));
     t.equal(doc.dir, 'aaa');
     t.equal(doc.output, 'bbb');
     t.equal(doc.theme, 'new');
     t.equal(doc.customization, false);
     t.end();
-    fs.unlinkSync(path.join(TEST_PATH, 'emad-loppo.yml'));
+    fs.unlinkSync(path.join(TEST_PATH, 'loppo.yml'));
   }
 );
 
@@ -78,7 +78,7 @@ test(
     t.equal(result.output, 'bbb');
     t.equal(result.theme, 'new');
     t.equal(result.customization, undefined);
-    const doc = yaml.load(fs.readFileSync(path.join(TEST_PATH, 'emad-loppo.yml'), 'utf8'));
+    const doc = yaml.load(fs.readFileSync(path.join(TEST_PATH, 'loppo.yml'), 'utf8'));
     t.equal(doc.dir, 'ccc');
     t.equal(doc.output, 'ddd');
     t.end();

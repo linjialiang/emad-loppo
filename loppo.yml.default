@@ -14,7 +14,7 @@ theme: oceandeep
 customization: false
 
 # dir to put customized theme in your project
-themeDir: emad-loppo-theme
+themeDir: loppo-theme
 
 # site direction
 direction: LTR

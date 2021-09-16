@@ -1,13 +1,13 @@
 # Command line options
 
-emadLoppo has some command line options.
+Loppo has some command line options.
 
 ## --dir, -d
 
 `--dir` or `-d` sets the document directory which keeps the original Markdown files. `docs` is the default directory.
 
 ```bash
-$ emad-loppo --dir my_docs
+$ loppo --dir my_docs
 ```
 
 ## --output, -o
@@ -15,7 +15,7 @@ $ emad-loppo --dir my_docs
 `--output` or `-o` sets the output directory which keeps the generated documents. `dist` is the default directory.
 
 ```bash
-$ emad-loppo --output my_site
+$ loppo --output my_site
 ```
 
 ##  --site, -s
@@ -23,15 +23,15 @@ $ emad-loppo --output my_site
 `--site` or `-s` sets the site's name. `Documents` is the default.
 
 ```bash
-$ emad-loppo --site "My Documents"
+$ loppo --site "My Documents"
 ```
 
 ## --theme, -t
 
-`--theme` or `-t` sets a site's theme. `emad-loppo-theme-oceandeep` is the default.
+`--theme` or `-t` sets a site's theme. `loppo-theme-oceandeep` is the default.
 
 ```bash
-$ emad-loppo --theme oceandeep
+$ loppo --theme oceandeep
 ```
 
 ##  --id
@@ -46,19 +46,19 @@ The option needs the support of the site theme.
 
 ## --debug
 
-`--debug` opens emadLoppo's debug mode.
+`--debug` opens Loppo's debug mode.
 
 ##  --version, -v
 
-`--version` or `-v` shows emadLoppo's version information.
+`--version` or `-v` shows Loppo's version information.
 
 ## --help
 
-`--help` gives emadLoppo's commandline usage.
+`--help` gives Loppo's commandline usage.
 
-
-
-
+  
+  
+ 
 
 示例：
-  emad-loppo --dir docs --output dist
+  loppo --dir docs --output dist

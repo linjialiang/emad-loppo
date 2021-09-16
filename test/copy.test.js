@@ -32,7 +32,7 @@ test(
     const TEST_PATH = path.resolve(__dirname, './fixture/copy/customization-true');
     process.chdir(TEST_PATH);
     copy({
-      customization: true, themeDir: 'emad-loppo-theme', theme: 'oceandeep', dir: 'docs', output: 'dist'
+      customization: true, themeDir: 'loppo-theme', theme: 'oceandeep', dir: 'docs', output: 'dist'
     });
     t.equal(fs.existsSync(path.resolve(process.cwd(), 'dist')), true);
     t.equal(fs.existsSync(path.resolve(process.cwd(), 'dist', 'assets', 'js', 'app.js')), true);
@@ -48,7 +48,7 @@ test(
     const TEST_PATH = path.resolve(__dirname, './fixture/copy/customization-false');
     process.chdir(TEST_PATH);
     copy({
-      customization: false, themeDir: 'emad-loppo-theme', theme: 'oceandeep', dir: 'docs', output: 'dist'
+      customization: false, themeDir: 'loppo-theme', theme: 'oceandeep', dir: 'docs', output: 'dist'
     });
     t.equal(fs.existsSync(path.resolve(process.cwd(), 'dist')), true);
     t.equal(fs.existsSync(path.resolve(process.cwd(), 'dist', 'assets', 'css', 'app.css')), true);

@@ -1,6 +1,6 @@
 # Template variables
 
-emadLoppo provides some template variables used in templates.
+Loppo provides some template variables used in templates.
 
 They could be divided into two categories: site variables and page variables.
 
@@ -14,7 +14,7 @@ The site variables are the same within the whole site.
 - chapters
 - chaptersOrigin
 - chapterList
-- emad_loppo_version
+- loppo_version
 
 ### option.site
 
@@ -67,9 +67,9 @@ Fields
 
 `option.chapterList` is a HTML string converted from `option.chapters`.
 
-### option.emad_loppo_version
+### option.loppo_version
 
-`option.emad_loppo_version` is the version number of emadLoppo.
+`option.loppo_version` is the version number of Loppo.
 
 ## Page variables
 
@@ -212,3 +212,4 @@ For example, if current page is `dir1/dir2/a.md`, `option.breadcrumb` is the fol
 ### option.toc
 
 `option.toc` is the table of content of current page.
+

@@ -70,7 +70,7 @@ module.exports = {
     const chaptersContent = fs.readFileSync(chaptersPath, 'utf8');
     const chaptersArr = yaml.safeLoad(chaptersContent);
 
-    const cfgPath = path.resolve(process.cwd(), 'emad-loppo.yml');
+    const cfgPath = path.resolve(process.cwd(), 'loppo.yml');
     const cfgContent = fs.readFileSync(cfgPath, 'utf8');
     const cfgObj = yaml.safeLoad(cfgContent);
     const docDir = cfgObj.dir;
@@ -103,3 +103,4 @@ module.exports = {
     print(filesArr, argv);
   }
 };
+
