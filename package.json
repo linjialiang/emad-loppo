@@ -1,6 +1,6 @@
 {
-  "name": "loppo",
-  "version": "0.6.24",
+  "name": "emad-loppo",
+  "version": "2.0.0",
   "description": "an extremely easy static site generator of markdown documents",
   "main": "index.js",
   "scripts": {
@@ -16,12 +16,12 @@
     "static",
     "document"
   ],
-  "homepage": "https://github.com/ruanyf/loppo",
+  "homepage": "https://github.com/linjialiang/emad-loppo",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ruanyf/loppo.git"
+    "url": "https://github.com/linjialiang/emad-loppo.git"
   },
-  "author": "Ruan Yifeng",
+  "author": "linjialiang",
   "license": "GPL-3.0",
   "dependencies": {
     "connect": "^3.7.0",
