@@ -1,6 +1,6 @@
 {
   "name": "emad-loppo",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "an extremely easy static site generator of markdown documents",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 1"
   },
   "bin": {
-    "loppo": "./bin/cmd.js"
+    "loppo": "bin/cmd.js"
   },
   "keywords": [
     "static",
@@ -83,5 +83,10 @@
     "commitizen": {
       "path": "node_modules/cz-conventional-changelog"
     }
+  },
+  "directories": {
+    "doc": "docs",
+    "lib": "lib",
+    "test": "test"
   }
 }
