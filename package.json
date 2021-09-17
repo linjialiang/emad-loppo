@@ -16,10 +16,10 @@
     "static",
     "document"
   ],
-  "homepage": "https://github.com/linjialiang/emad-loppo",
+  "homepage": "https://gitee.com/linjialiang/emad-loppo",
   "repository": {
     "type": "git",
-    "url": "https://github.com/linjialiang/emad-loppo.git"
+    "url": "https://gitee.com/linjialiang/emad-loppo.git"
   },
   "author": "linjialiang",
   "license": "GPL-3.0",
@@ -33,7 +33,7 @@
     "lodash": "^4.17.21",
     "log-symbols": "^4.1.0",
     "log4js": "^6.3.0",
-    "emad-loppo-theme-oceandeep": "2.x",
+    "emad-loppo-theme-oceandeep": "latest",
     "promptly": "^3.2.0",
     "serve-static": "^1.14.1",
     "tarim": "^0.1.4",
