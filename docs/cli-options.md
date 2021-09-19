@@ -28,7 +28,7 @@ $ loppo --site "My Documents"
 
 ## --theme, -t
 
-`--theme` or `-t` sets a site's theme. `loppo-theme-oceandeep` is the default.
+`--theme` or `-t` sets a site's theme. `emad-loppo-theme-oceandeep` is the default.
 
 ```bash
 $ loppo --theme oceandeep
@@ -56,9 +56,9 @@ The option needs the support of the site theme.
 
 `--help` gives Loppo's commandline usage.
 
-  
-  
- 
+
+
+
 
 示例：
   loppo --dir docs --output dist

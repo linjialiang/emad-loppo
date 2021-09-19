@@ -25,7 +25,7 @@ First of all, arrange your documents into the following structure.
 Now, install Loppo.
 
 ```bash
-$ npm install loppo -g
+$ npm install emad-loppo -g
 ```
 
 Enter your project directory.
@@ -37,7 +37,7 @@ $ cd myProject
 Run the command.
 
 ```bash
-$ loppo
+$ emad-loppo
 ```
 
 Now, Loppo will build the document site under `dist` sub-directory. After the building process, you could open the site in your browser.
@@ -49,4 +49,3 @@ $ open dist/index.html
 ## License
 
 GPL v3
-

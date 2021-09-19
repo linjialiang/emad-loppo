@@ -11,7 +11,7 @@ log.setLevel('error');
 
 const test_title = '[theme.js] ';
 const THEME = 'oceandeep';
-const THEMEDIR = 'loppo-theme';
+const THEMEDIR = 'emad-loppo-theme';
 
 test(
   test_title +
